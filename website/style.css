@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(new.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    color: hsl(189, 100%, 38%);
+    font-size: 45px;
+    margin-top: 15px;
+    padding: 10px;
+    margin-left: 35px;
+
+}
+li{
+    display: inline-block;
+    margin-top: 28px;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a{
+    margin-right: 20px;
+color: white;
+font-weight: 600;
+    font-style: normal;
+    
+}
+a:hover{
+    color:cyan;
+    animation-name: grow;
+    animation-duration: 2s;
+}
+input{
+    border: 5px solid hsl(189, 100%, 38%);
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+::placeholder{
+    color: white;
+}
+button{
+     border: 5px solid hsl(189, 100%, 38%);
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+
+}
+button:hover{
+    color: hsl(0, 100%, 63%);
+}
+@keyframes grow{
+    100%{transform:scale(3,2);}
+}
+.gg{
+    color: white;
+    margin-left: 35px;
+    margin-top: 130PX;
+    padding: 10px;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gg h1{
+    font-size: 45px;
+
+}
+.gg p{
+    font-size: 25px;
+}
+.gg button{
+    margin-top: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+    .gg span{
+    color: hsl(189, 100%, 38%);
+    }
+.form{
+    width: 300px;
+    height: 420px;
+position: absolute;
+left: 840px;
+bottom: 20px;
+background-color: hsl(0, 2%, 10%);
+padding: 25px;
+border-radius: 12px;
+}
+h3{
+    width: 240px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: 
+      hsl(189, 100%, 38%);
+      border-radius: 10px;
+      margin: 10px;
+}
+.btn1{
+    height: 30px;
+    width: 240px;
+    border-style: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid white;
+    align-items: center;
+    margin: 10px;
+    font-size: 15px;
+border-radius: 0px;
+font-family: sans-serif;
+background: transparent;
+
+}
+.btn2{
+    
+    height: 30px;
+    width: 240px;
+    border-style: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid white;
+    align-items: center;
+    margin: 10px;
+    font-size: 15px;
+    font-size: 15px;
+border-radius: 0px;
+font-family: sans-serif;
+}
+::placeholder{
+    color: white;
+}
+.btn{
+ height: 40px;
+    width: 240px;
+    margin: 10px;
+    border: 2px solid hsl(189, 100%, 38%);;
+}
+.btn4{
+   height: 2px;
+    width: 240px;
+    margin: 10px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn6{
+     height: 40px;
+    width: 240px;
+    margin: 10px;
+    border: 2px solid hsl(189, 100%, 38%);;
+}
+.btn5{
+   height: 12px;
+    width: 240px;
+    margin: 10px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+
+.icon{
+    color: white;
+    font-size: 20px;
+}
+.icon a:hover{
+    color:hsl(0, 2%, 25%);
+}
